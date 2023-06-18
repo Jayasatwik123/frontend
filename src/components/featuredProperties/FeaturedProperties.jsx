@@ -3,7 +3,7 @@ import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
   const { data, loading, error } = "https://tourreservation.onrender.com/api/hotels?featured=true&limit=4";
-  console.log(data);
+
   return (
     <div className="fp">
       {loading ? (
